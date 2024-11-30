@@ -1,0 +1,35 @@
+body {
+    background-color: #e0f7fa; 
+    color: #000; 
+}
+
+.input-group input {
+    max-width: 300px;  
+    width: 100%;  
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-img-top {
+    max-height: 200px; 
+    object-fit: cover;
+}
+
+h1 {
+    color: #d32f2f; 
+}
+
+#resultsContainer {
+    margin-top: 2rem;
+}
+
+#movieDetails {
+    margin-top: 1rem;
+}
